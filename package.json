@@ -1,0 +1,22 @@
+{
+  "name": "test-cafe",
+  "version": "1.0.0",
+  "description": "testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./pom/test --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirdoing/test-cafe.git"
+  },
+  "author": "oscar campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wirdoing/test-cafe/issues"
+  },
+  "homepage": "https://github.com/wirdoing/test-cafe#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
