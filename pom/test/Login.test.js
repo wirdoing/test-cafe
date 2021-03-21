@@ -3,7 +3,7 @@ import LoginPage from "../pages/LoginPage";
 import { differentUsers } from "../roles/Roles";
 
 fixture`Test Scenarios For Login`.page`https://www.saucedemo.com/`;
-/*
+
 test("Login with a valid user", async (t) => {
   await t.useRole(differentUsers);
   await t.expect(LoginPage.productsPage.exists).ok();
@@ -22,4 +22,3 @@ test("Logout from products page", async (t) => {
   await LoginPage.logoutProductPage();
   await t.expect(LoginPage.userNameField.exists).ok();
 });
-*/

@@ -8,7 +8,7 @@ fixture`Test Scenarios For Shopping Cart`
   await LoginPage.login(DATA.LOGIN.USERNAME, DATA.LOGIN.PASSWORD);
   await t.expect(LoginPage.productsPage.exists).ok();
 });
-/*
+
 test("Continue‌ ‌with‌ ‌missing‌ ‌mail‌ ‌information‌", async (t) => {
   const NumOfItems = 4;
   await ShoppingCartPage.addMoreItems(NumOfItems);
@@ -40,7 +40,7 @@ test("Fill‌ ‌user’s‌ ‌information‌", async (t) => {
     await t 
     .expect(UserInfo.overviewHeader.exists).ok()
 })
-*/
+
 test("Complete‌ ‌a‌ ‌purchase‌‌", async (t) => {
     const NumOfItems = 4;
     await ShoppingCartPage.addMoreItems(NumOfItems);

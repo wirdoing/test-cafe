@@ -7,7 +7,7 @@ fixture`Test Scenarios For Shopping Cart`
   await LoginPage.login(DATA.LOGIN.USERNAME, DATA.LOGIN.PASSWORD);
   await t.expect(LoginPage.productsPage.exists).ok();
 });
-/*
+
 test("Navigate‌ ‌to‌ ‌the‌ ‌shopping‌ ‌cart‌", async (t) => {
   await ShoppingCartPage.clickCart();
   await t.expect(ShoppingCartPage.Header.exists).ok();
@@ -27,4 +27,3 @@ test("Add‌ ‌multiple‌ ‌items‌ ‌to‌ ‌the‌ ‌shopping‌ ‌car
     .expect(ShoppingCartPage.CartItemCounter.innerText)
     .eql(NumOfItems.toString());
 });
-*/
