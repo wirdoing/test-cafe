@@ -19,9 +19,7 @@ class LoginPage {
   }
 
   async logoutProductPage() {
-    await t
-      .click(this.hamburgerButton)
-      .click(this.logoutButton)
+    await t.click(this.hamburgerButton).click(this.logoutButton);
   }
 }
 
